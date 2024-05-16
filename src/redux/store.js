@@ -1,4 +1,4 @@
-import { configureStore } from "@reduxjs/toolkit";
-import covidSlice from "./covidSlice";
+import { configureStore } from '@reduxjs/toolkit';
+import covid from './covidSlice';
 
-export default configureStore({ reducer: { covidSlice } })
+export default configureStore({ reducer: covid });
